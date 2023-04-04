@@ -76,7 +76,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  padding: 3rem;
 }
 
 .card {
@@ -106,7 +107,7 @@ body {
 .card-details-container {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 1.75rem;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -135,7 +136,27 @@ body {
 
 .number-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers {
+  font-family: var(--ff-inter);
+  font-weight: 700;
+  color: var(--clr-main-heading);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.description {
+  font-family: var(--ff-lexend-deca);
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--clr-stat-heading);
+}
+
+.space {
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 576px) {
