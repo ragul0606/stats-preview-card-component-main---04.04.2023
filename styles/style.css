@@ -160,6 +160,49 @@ body {
 }
 
 @media screen and (min-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 60rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-container {
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 48rem;
+    height: 22rem;
+    align-items: flex-end;
+    justify-content: left;
+  }
+
+  .main-heading {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .main-para {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .number-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Medium devices (tablets) */
