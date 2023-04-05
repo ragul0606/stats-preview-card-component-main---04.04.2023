@@ -163,12 +163,11 @@ body {
   body {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    padding: 3rem;
   }
 
   .card {
-    width: 60rem;
+    width: 48rem;
     height: 22rem;
     display: flex;
     flex-direction: row;
@@ -202,6 +201,7 @@ body {
   .number-container {
     display: flex;
     flex-direction: row;
+    gap: 5rem;
   }
 }
 
