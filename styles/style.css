@@ -161,6 +161,7 @@ body {
 
 @media screen and (min-width: 576px) {
   body {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     padding: 3rem;
@@ -170,12 +171,14 @@ body {
     width: 48rem;
     height: 22rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
   }
 
   .img-container {
+    display: flex;
+    flex-direction: row-reverse;
     background-image: url(../images/image-header-desktop.jpg);
     background-size: cover;
     background-position: left;
