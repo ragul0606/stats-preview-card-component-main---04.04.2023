@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git Hub]https://github.com/ragul0606/stats-preview-card-component-main---04.04.2023
+- Solution URL: [GitHub]https://github.com/ragul0606/stats-preview-card-component-main---04.04.2023
 - Live Site URL: [Netlify]https://benevolent-choux-15677b.netlify.app/
 
 ### Built with
